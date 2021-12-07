@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.Station.AdminStationUpdate"
+    android:weightSum="8"
+    android:orientation="vertical"
+    android:background="#fff"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="UPDATE STATION"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textColor="#ffa100"
+            ></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+
+        >
+        <Spinner
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/SpStationUpdateID"
+            android:background="#ffebee"
+            android:layout_margin="10sp"
+
+            ></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2"
+
+        >
+        <EditText
+            android:id="@+id/SpStationUpdateName"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="name"
+            android:layout_margin="8sp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            ></EditText>
+
+
+        <EditText
+            android:id="@+id/SpStationUpdateConducted"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="Conducted By"
+            android:layout_margin="8sp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            ></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2"
+
+        >
+        <EditText
+            android:id="@+id/SpStationUpdateLati"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="Latitude"
+            android:layout_margin="8sp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            ></EditText>
+
+
+        <EditText
+            android:id="@+id/SpStationUpdateLongi"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="Longitude"
+            android:layout_margin="8sp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            ></EditText>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2"
+
+        >
+        <EditText
+            android:id="@+id/SpStationUpdateOpen"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="open"
+            android:layout_margin="8sp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            ></EditText>
+
+
+        <EditText
+            android:id="@+id/SpStationUpdateClose"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="close"
+            android:layout_margin="8sp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            ></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2"
+
+        >
+        <EditText
+            android:id="@+id/SpStationUpdatenoofcycles"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="no of cycles"
+            android:layout_margin="8sp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            ></EditText>
+
+
+        <EditText
+            android:id="@+id/SpStationUpdatecyclesAvail"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="Available cycles"
+            android:layout_margin="8sp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            ></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+
+        >
+        <EditText
+            android:id="@+id/SpStationUpdateDesc"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="Description"
+            android:layout_margin="8sp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            ></EditText>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2"
+
+        >
+
+        <Button
+            android:id="@+id/btSupdate"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="UPDATE"
+            android:layout_margin="8sp"
+            android:background="#66FF33"
+            android:textSize="25sp"
+            />
+
+        <Button
+            android:id="@+id/btScancel"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="CANCEL"
+            android:textSize="25sp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

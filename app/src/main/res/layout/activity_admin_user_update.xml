@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.User.AdminUserUpdate"
+    android:weightSum="6"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+
+        >
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="UPDATE USER"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textColor="#ffa100"
+            ></TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+
+        >
+        <Spinner
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/SpUserUpdateID"
+            android:background="#ffa100"
+
+            ></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2"
+
+        >
+        <EditText
+            android:id="@+id/SpUserUpdateName"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="name"
+            android:layout_margin="8sp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            ></EditText>
+
+
+        <EditText
+            android:id="@+id/SpUserUpdateEmail"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="Email"
+            android:layout_margin="8sp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            ></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2"
+
+        >
+        <EditText
+            android:id="@+id/SpUserUpdateRole"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="role"
+            android:layout_margin="8sp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            />
+
+
+        <EditText
+            android:id="@+id/SpUserUpdateGender"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="Gender"
+            android:layout_margin="8sp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2"
+
+        >
+        <EditText
+            android:id="@+id/SpUserUpdateAdd"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="Address"
+            android:layout_margin="8sp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            />
+
+
+        <EditText
+            android:id="@+id/SpUserUpdatePhone"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="Phone"
+            android:layout_margin="8sp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2"
+
+        >
+
+        <Button
+            android:id="@+id/btUserupdate"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="UPDATE"
+            android:layout_margin="8sp"
+            android:background="#66FF33"
+            android:textSize="25sp"
+            />
+
+        <Button
+            android:id="@+id/btUsercancel"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="CANCEL"
+            android:textSize="25sp"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

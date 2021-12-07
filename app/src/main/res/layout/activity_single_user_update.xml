@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.User.SingleUserUpdate"
+    android:weightSum="6"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+
+        >
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="UPDATE USER"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textColor="#ffa100"
+            ></TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+
+        >
+        <Spinner
+            android:id="@+id/SingleUserUpdateID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="#FFa100"
+            android:layout_margin="8sp"
+            android:text="ID"
+            ></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2"
+
+        >
+        <EditText
+            android:id="@+id/SingleUserUpdateName"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="name"
+            android:layout_margin="8sp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            ></EditText>
+
+
+        <EditText
+            android:id="@+id/SingleUserUpdateEmail"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="Email"
+            android:layout_margin="8sp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            ></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2"
+
+        >
+        <EditText
+            android:id="@+id/SingleUserUpdatePhone"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="Phone"
+            android:layout_margin="8sp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            />
+
+
+        <EditText
+            android:id="@+id/SingleUserUpdateGender"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="Gender"
+            android:layout_margin="8sp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2"
+
+        >
+        <EditText
+            android:id="@+id/SingleUserUpdateAdd"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="Address"
+            android:layout_margin="8sp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            />
+
+        <EditText
+            android:id="@+id/SingleUserUpdatePwd"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="Password"
+            android:layout_margin="8sp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2"
+
+        >
+
+        <Button
+            android:id="@+id/btSingleUserUpdate"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="UPDATE"
+            android:layout_margin="8sp"
+            android:background="#66FF33"
+            android:textSize="25sp"
+            />
+
+        <Button
+            android:id="@+id/btSingleUserCancel"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="CANCEL"
+            android:textSize="25sp"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

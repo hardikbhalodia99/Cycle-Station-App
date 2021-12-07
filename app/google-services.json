@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1038738999269",
+    "firebase_url": "https://loginpwd-35d0d.firebaseio.com",
+    "project_id": "loginpwd-35d0d",
+    "storage_bucket": "loginpwd-35d0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038738999269:android:d830305ba79d308966510c",
+        "android_client_info": {
+          "package_name": "com.example.loginpwd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038738999269-h3b1dhu99sjird7lvsi7ah0civl8eis3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.loginpwd",
+            "certificate_hash": "ac8050931d2acc544f96cf86f110776a32446cde"
+          }
+        },
+        {
+          "client_id": "1038738999269-eml0uoi1ugrqvpr74jqfca864nuok571.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQkIplNxIxfH3A7AlUnDKONZ2jtWl3rp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038738999269-eml0uoi1ugrqvpr74jqfca864nuok571.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

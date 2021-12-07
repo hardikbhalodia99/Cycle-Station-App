@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.Station.StationCustomListView"
+    android:weightSum="6"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        >
+    <TextView
+        android:id="@+id/tvAdminStationId"
+        android:layout_width="0sp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:text="Station ID "
+        android:textColor="#ffa100"
+        android:textSize="20sp"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:id="@+id/tvAdminStationName"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="Station Name "
+            android:textColor="#ffa100"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bdel"
+            android:layout_width="10sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/deleteicon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:id="@+id/tvAdminStationOpen"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="Station Open Time "
+            android:textColor="#ffa100"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:id="@+id/tvAdminStationClose"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="Station Close Time "
+            android:textColor="#ffa100"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:id="@+id/tvAdminStationNoOfCycles"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="No OF Cycles "
+            android:textColor="#ffa100"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:id="@+id/tvAdminStationAvail"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="Available Cycles"
+            android:textColor="#ffa100"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.Cycle.AdminCycleInsert"
+    android:weightSum="7"
+    android:background="#F9FBE7"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="35sp"
+            android:text="INSERT CYCLE"
+            android:gravity="center"
+            android:textColor="#FF5722"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+       <EditText
+           android:id="@+id/etuid"
+           android:layout_width="0sp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:layout_margin="15sp"
+           android:background="#F9A825"
+           android:hint="Enter UID "
+           android:textSize="25sp"
+           android:gravity="center"
+           />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:id="@+id/etcyclestation"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="15sp"
+            android:background="#F9A825"
+            android:hint="Enter Station "
+            android:textSize="25sp"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:id="@+id/etcyclestatus"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="15sp"
+            android:background="#F9A825"
+            android:hint="Enter Status "
+            android:textSize="25sp"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:id="@+id/etimageurl"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="15sp"
+            android:background="#F9A825"
+            android:hint="Enter Image Url "
+            android:textSize="25sp"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:id="@+id/etcycleregno"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="15sp"
+            android:background="#F9A825"
+            android:hint="Enter Reg no "
+            android:textSize="25sp"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        >
+
+       <Button
+           android:id="@+id/btinsert"
+           android:layout_width="0sp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:layout_margin="15sp"
+           android:text="INSERT"
+           android:background="#66FF33"
+          />
+
+        <Button
+            android:id="@+id/btcancel"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="15sp"
+            android:text="CANCEL"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

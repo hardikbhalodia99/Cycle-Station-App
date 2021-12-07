@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.User.BookCycleCard"
+    android:orientation="vertical"
+    android:weightSum="9"
+    android:background="#ffebee"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Station Name"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_margin="15sp"
+            android:textColor="#ffa100"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:id="@+id/BookCycleCardOpentime"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="open time"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            android:layout_margin="15sp"
+            android:textColor="#ffffff"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:id="@+id/BookCycleCardClosetime"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Close time"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            android:layout_margin="15sp"
+            android:textColor="#ffffff"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:id="@+id/BookCycCardAvailCycles"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Avail cycles"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            android:layout_margin="15sp"
+            android:textColor="#ffffff"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:id="@+id/BookCycCardRent"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Rent"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            android:layout_margin="15sp"
+            android:textColor="#ffffff"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:id="@+id/BookCycCardDeposit"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="deposit"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            android:layout_margin="15sp"
+            android:textColor="#ffffff"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        >
+
+        <Spinner
+            android:id="@+id/BookCycCardSpinner"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            android:layout_margin="15sp"
+            android:textColor="#ffffff"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        >
+
+        <Spinner
+            android:id="@+id/BookCycCardSpinnerHours"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            android:layout_margin="15sp"
+            android:textColor="#ffffff"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        >
+
+        <Button
+            android:id="@+id/BookCycCardBookCycle"
+            android:layout_width="150sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffa100"
+            android:text="BOOK CYCLE"
+            android:textSize="25sp"
+            android:layout_margin="10sp"
+            android:textColor="#ffffff"
+            />
+        <Button
+            android:id="@+id/BookCycCardCancel"
+            android:layout_width="150sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffa100"
+            android:text="Cancel"
+            android:textSize="25sp"
+            android:layout_margin="10sp"
+            android:textColor="#ffffff"
+            />
+
+    </LinearLayout>
+</LinearLayout>

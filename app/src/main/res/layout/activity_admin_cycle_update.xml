@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.Cycle.AdminCycleUpdate"
+    android:weightSum="7"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="UPDATE CYCLE"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textColor="#ffa100"
+            ></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+
+        >
+        <Spinner
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/SpCycleUpdateID"
+            android:background="#ffebee"
+            android:layout_margin="10sp"
+            android:outlineSpotShadowColor="#000000"
+
+            ></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+
+        >
+        <EditText
+            android:id="@+id/SpCycleStation"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="Cycle Station"
+            android:layout_margin="8sp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            ></EditText>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+
+        >
+        <EditText
+            android:id="@+id/SpCycleStatus"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="Cycle Status"
+            android:layout_margin="8sp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            ></EditText>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+
+        >
+        <EditText
+            android:id="@+id/SpCycleimgUrl"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="Cycle Image Url"
+            android:layout_margin="8sp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            ></EditText>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+
+        >
+        <EditText
+            android:id="@+id/SpCycleRegno"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="Cycle Regestration No"
+            android:layout_margin="8sp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#ffa100"
+            ></EditText>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2"
+
+        >
+
+        <Button
+            android:id="@+id/btCycleupdate"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="UPDATE"
+            android:layout_margin="8sp"
+            android:background="#66FF33"
+            android:textSize="25sp"
+            />
+
+        <Button
+            android:id="@+id/btCyclecancel"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="CANCEL"
+            android:textSize="25sp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

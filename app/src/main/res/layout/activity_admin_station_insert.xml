@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.Station.AdminStationInsert"
+    android:orientation="vertical"
+    android:weightSum="12"
+    android:background="#F9FBE7"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="INSERT STATION "
+            android:textSize="35sp"
+            android:gravity="center"
+            android:textColor="#FF5722"
+            ></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/etstid"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="Enter Station ID "
+            android:layout_margin="8sp"
+            android:background="#FFC107"
+            android:gravity="center"
+            ></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/etstname"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="Enter Station Name "
+            android:layout_margin="8sp"
+            android:background="#FFC107"
+            android:gravity="center"
+            ></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/etstlatitude"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="Enter Station Latitude "
+            android:layout_margin="8sp"
+            android:background="#FFC107"
+            android:gravity="center"
+            ></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/etstlongitude"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="Enter Station Longitude "
+            android:layout_margin="8sp"
+            android:background="#FFC107"
+            android:gravity="center"
+            ></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/etstdesc"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="Enter Description "
+            android:layout_margin="8sp"
+            android:background="#FFC107"
+            android:gravity="center"
+            ></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/etstopentime"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="Enter Opening Time "
+            android:layout_margin="8sp"
+            android:background="#FFC107"
+            android:gravity="center"
+            ></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/etstclosetime"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="Enter Closing time"
+            android:layout_margin="8sp"
+            android:background="#FFC107"
+            android:gravity="center"
+            ></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/etstconducted"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="Enter Conducted By "
+            android:layout_margin="8sp"
+            android:background="#FFC107"
+            android:gravity="center"
+            ></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/etnoCycles"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="Enter No Of Cycle "
+            android:layout_margin="8sp"
+            android:background="#FFC107"
+            android:gravity="center"
+            ></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/etcyclesAvail"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="Enter Cycles Available "
+            android:layout_margin="8sp"
+            android:background="#FFC107"
+            android:gravity="center"
+            ></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btinsert"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="INSERT"
+            android:background="#00FF00"
+            android:textSize="25sp"
+            android:layout_margin="6sp"
+            ></Button>
+
+        <Button
+            android:id="@+id/btcancel"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="CANCEL"
+            android:textSize="25sp"
+            android:background="#90A4AE"
+            android:layout_margin="6sp"
+            ></Button>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9FBE7"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="45sp"
+        android:layout_marginLeft="150sp"
+        android:layout_marginTop="100sp"
+        android:text="LOGIN"
+         />
+
+    <EditText
+        android:id="@+id/info"
+        android:layout_width="270sp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="200sp"
+        android:hint=" enter email"
+        android:background="#F9FBE7"
+        android:textSize="25sp"
+        />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="270sp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="300sp"
+        android:background="#F9FBE7"
+        android:hint="ENTER PASSWORD : "
+        android:textSize="25sp"
+
+
+         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bclear"
+        android:layout_marginLeft="75sp"
+        android:layout_marginTop="400sp"
+        android:background="#26C6DA"
+        android:text="  Clear  "
+        android:textSize="20sp"
+
+
+        />
+
+
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="138sp"
+        android:layout_marginTop="635sp"
+        android:background="#26C6DA"
+        android:text="  Register  "
+        android:textSize="20sp"
+
+
+        />
+    <Button
+        android:id="@+id/blog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="215sp"
+        android:layout_marginTop="400sp"
+        android:background="#26C6DA"
+        android:text="Login "
+        android:textSize="25sp"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="600sp"
+        android:text="Not a memeber? REGISTER HERE.."
+/>
+
+</RelativeLayout>
